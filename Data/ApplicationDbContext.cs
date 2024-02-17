@@ -12,6 +12,8 @@ namespace GuitarShop.Data
             public DbSet<Customer> Customer { get; set; }
             public DbSet<CartItem> CartItem { get; set; }
 
+           // public DbSet<Checkout> Checkout { get; set; }//
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
             {
                 modelBuilder.Entity<Guitar>().ToTable("Guitar");

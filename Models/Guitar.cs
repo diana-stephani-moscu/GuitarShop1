@@ -13,6 +13,8 @@ namespace GuitarShop.Models
 
         public string Type { get; set; }
 
+        public byte[] Image { get; set; }
+
         public decimal Price { get; set; }
 
         public string Description { get; set; }
